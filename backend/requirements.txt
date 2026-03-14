@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pymongo
+python-dotenv
+httpx
+pydantic
+huggingface_hub
+openai
+scikit-learn
+pandas
+numpy
+python-multipart
+google-genai
