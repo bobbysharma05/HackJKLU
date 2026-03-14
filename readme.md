@@ -1,102 +1,111 @@
-🏥 Sanjeevani AI – Rural Medical Assistant
+<div align="center">
 
-Sanjeevani AI is an AI-powered rural healthcare assistant that helps health workers and patients quickly analyze symptoms, prescriptions, and medical history using AI.
+<img src="assets/demo.gif" width="800"/>
 
-The system performs AI triage, diagnosis, prescription analysis, and doctor escalation to support healthcare in remote areas.
+# 🚀 HackJKLU
 
-⸻
+**A hackathon project solving real-world problems with modern web technologies.**
 
-🚀 Features
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-🧠 AI Symptom Analysis
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-Users can enter symptoms and the system predicts possible conditions using Gemini AI.
+</div>
 
-📋 AI Triage System
+---
 
-Before diagnosis, the AI asks follow-up questions to better understand the patient condition.
+## ✨ Overview
 
-📜 Prescription Analysis
+HackJKLU is a hackathon project designed to solve real-world problems using modern web technologies. The platform provides an intuitive user interface backed by a scalable, secure architecture.
 
-Upload a prescription image or PDF and the AI extracts:
-	•	Doctor name
-	•	Medicines
-	•	Dosage instructions
-	•	Precautions
-	•	Summary
+> Built during the **HackJKLU Hackathon** — focused on delivering an efficient and user-friendly solution fast.
 
-🧑‍⚕️ Doctor Assistance (24/7)
+---
 
-After diagnosis, a doctor can evaluate the case severity:
-	•	🟢 Low
-	•	🟡 Medium
-	•	🔴 Severe → emergency slot suggested
+## 🚀 Features
 
-📚 Patient History
+| Feature | Description |
+|---|---|
+| ⚡ Fast UI | Responsive, snappy interface powered by React + Vite |
+| 🤖 Smart Functionality | Intelligent features built for real-world use |
+| 🔐 Secure Backend | Robust architecture with Express.js |
+| 📊 Scalable Design | Built to grow without breaking |
+| 🌐 Modern Stack | Latest web technologies throughout |
 
-Previous medical records are stored in MongoDB and used as context for future diagnosis.
+---
 
-⸻
+## 🏗️ Tech Stack
 
-🧩 Tech Stack
+**Frontend**
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
 
-Frontend
-	•	Next.js
-	•	React
-	•	TailwindCSS
-	•	Framer Motion
-	•	Shadcn UI
+**Backend**
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
 
-Backend
-	•	FastAPI
-	•	Python
-	•	MongoDB
-	•	PyMongo
+**Tools**
+- Git · Postman · Docker *(optional)*
 
-AI Models
-	•	Google Gemini 2.5 Flash
+---
 
-
-📂 Project Structure
-Sanjeevani-AI
+## 📂 Project Structure
+```
+HackJKLU/
 │
-├── frontend
-│   ├── src/app
-│   ├── components
-│   └── package.json
-│
-├── backend
-│   ├── routes
-│   ├── services
-│   ├── db
-│   └── main.py
-│
+├── frontend/         # React + Vite frontend
+├── backend/          # Node.js + Express backend
+├── assets/
+│   ├── images/       # Static images
+│   └── demo.gif      # Demo GIF
 └── README.md
+```
 
+---
 
-User symptom
-↓
-AI triage questions
-↓
-AI diagnosis
-↓
-Patient history stored
-↓
-Doctor severity evaluation
-↓
-Emergency escalation if needed
+## ⚙️ Installation
 
+**1. Clone the repository**
+```bash
+git clone https://github.com/ryaman2005/HackJKLU.git
+```
 
-team name - team rocket
-aryaman bohra
-vansh bhardwaj
-bobby sharma 
-aryan gupta
-anmol saini
+**2. Move into the project folder**
+```bash
+cd HackJKLU
+```
 
+**3. Install dependencies**
+```bash
+npm install
+```
 
+---
 
+## ▶️ Running the Project
 
+**Start the backend server**
+```bash
+cd backend
+npm start
+```
+
+**Start the frontend**
+```bash
+cd frontend
+npm run dev
+```
+
+---
+
+## 📸 Screenshots
 
 ![Screenshot](images/1.png)
 ![Screenshot](images/2.png)
@@ -106,3 +115,42 @@ anmol saini
 ![Screenshot](images/5.png)
 ![Screenshot](images/6.png)
 
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how:
+
+1. **Fork** the repository
+2. **Create** your feature branch
+```bash
+   git checkout -b feature/new-feature
+```
+3. **Commit** your changes
+```bash
+   git commit -m "Added new feature"
+```
+4. **Push** to the branch
+```bash
+   git push origin feature/new-feature
+```
+5. **Open** a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👨‍💻 Authors
+
+- **Ryan** — [@ryaman2005](https://github.com/ryaman2005)
+- **HackJKLU Team**
+
+<div align="center">
+
+Made with ❤️ at HackJKLU
+
+</div>
